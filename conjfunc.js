@@ -4,3 +4,10 @@ const conjunction = function (firstWord, secondWord) {
 }
 
 conjunction("Master", "Card")
+
+//PURE FUNCTION EXAMPLE VERSION...i think
+//const conjunction = function (firstWord, secondWord){
+//     const conjoinedWord = `${firstWord} ${secondWord}`
+//     return conjunction
+// }
+// conjunction("Master", "Card")

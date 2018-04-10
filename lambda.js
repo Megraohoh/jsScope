@@ -1,14 +1,13 @@
 const llamaNamer = function () {
     const possibleNames = ["Larry", "Leon", "Leona", "Les", "Laura", "Lemony", "Lars", "Lekisha"]
     const randomizer = Math.floor(Math.random() * 7)
-
-    const namer = function () {
-        const suffix = " the Llama"
-        const name = possibleNames[randomizer]
-    }
-
+    let name = possibleNames[randomizer]
+    let suffix = " the Llama"
+    
     return name + suffix
 }
+// const namer = function () {
+//     nameMaker = llamaNamer()
+// }
 
-nameMaker = llamaNamer()
-console.log(nameMaker())
+// console.log(nameMaker())
