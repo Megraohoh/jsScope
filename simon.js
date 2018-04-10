@@ -4,12 +4,7 @@ for (let k = 0; k < locations.length; k++) {
     const currentLocation = locations[k]
 
     if (currentLocation[0] > 2) {
-        const invalidLocation = true
-    }
-
-    if (invalidLocation) {
         console.log("This location is invalid")
     }
+    console.log(`There were ${locations.length} locations displayed`)
 }
-
-console.log(`There were ${k} locations displayed`)
